@@ -1,6 +1,6 @@
 # Py-Learn
 
-A collection of Python scripts and code examples created while learning Python.  
+A collection of Python scripts and code examples I made while learning Python.  
 This repository covers beginner to advanced topics, with each file demonstrating different concepts, techniques, or small projects.
 
 ## How to Use
