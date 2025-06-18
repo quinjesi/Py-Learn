@@ -3,17 +3,17 @@ class BankSystem():
         self.balance = balance
 
     def deposit(self):
-        confirm_deposit = input("Do you want to deposit money? (yes/no) \n: ").lower()
+        confirm_deposit = input("Do you want to deposit money? (yes/no): ").lower()
         if (confirm_deposit == 'yes'):
-            deposit_amount = eval(input("Enter the amount you want to deposit: \n: "))
+            deposit_amount = eval(input("Enter the amount you want to deposit: "))
             self.balance += deposit_amount
         else:
             print("Deposit cancelled.")
 
     def withdraw(self):
-        confirm_withdraw = input("Do you want to withdraw money? (yes/no) \n: ").lower()
+        confirm_withdraw = input("Do you want to withdraw money? (yes/no): ").lower()
         if (confirm_withdraw == 'yes'):
-            withdraw_amount = eval(input("Enter the amount you want to withdraw: \n: "))
+            withdraw_amount = eval(input("Enter the amount you want to withdraw: "))
             if withdraw_amount > self.balance:
                 confirm_overdraft = input("Insufficient balance.\n Would you like to request an overdraft? (yes/no) \n: ").lower()
                 if confirm_overdraft == 'yes':
