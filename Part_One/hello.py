@@ -48,6 +48,9 @@ last_name = 'Doe'
 full_name = first_name + ' ' + last_name
 print(full_name)
 
+msgg = first_name + ' [' + last_name + '] is a good person'
+print(msgg)
+
 name = ['John', 'Doe']
 word = ' '.join(name)
 print(word)
