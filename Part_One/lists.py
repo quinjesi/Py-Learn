@@ -56,3 +56,18 @@ for y in dict_one:
 
 
 
+# 2D lists
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(matrix[0][0])
+
+coordinates = [1, 2, 3]
+x, y, z = coordinates
+print(y)
+
+coordinates = (1, 2, 3)  # tuple
+x = coordinates[0]
+y = coordinates[1]
+z = coordinates[2]
+
+x * y * z
+print(x * y * z)

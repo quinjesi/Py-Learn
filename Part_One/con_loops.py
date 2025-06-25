@@ -49,3 +49,18 @@ for p in my_string:
 my_dict = {'a': 1, 'b': 2, 'c': 3}
 for key, value in my_dict.items():
     print(f"Key: {key}, Value: {value}")
+
+# Nested loops
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(f"i: {i}, j: {j}")
+
+numbers = [5, 2, 5, 2, 2]
+for x in numbers:
+    print('x' * x)
+
+for x_count in numbers:
+    output = ''
+    for count in range(x_count):
+        output += 'x'
+    print(output)
