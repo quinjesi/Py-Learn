@@ -5,6 +5,6 @@ try:
     print(f"Your risk factor is: {risk}")
 except ZeroDivisionError:
     print("Age cannot be zero. Please enter a valid age.")
-    print(user_age)
+
 except ValueError:
     print("Invalid input. Please enter a number.")
