@@ -13,3 +13,4 @@ print(type(age))
 weight_lbs = int(input('Enter your weight in pounds: '))
 weight_kg = weight_lbs * 0.45
 print(f'Your weight in kg is {weight_kg:.2f} kg.')
+
